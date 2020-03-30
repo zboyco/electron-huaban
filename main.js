@@ -5,7 +5,7 @@ const exec = require('child_process').exec
 function createWindow() {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 800,
+    width: 1024,
     height: 600,
     webPreferences: {
       nodeIntegration: true
