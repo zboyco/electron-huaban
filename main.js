@@ -6,7 +6,7 @@ function createWindow() {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 1024,
-    height: 600,
+    height: 768,
     webPreferences: {
       nodeIntegration: true
     }
@@ -54,7 +54,7 @@ app.on('activate', function () {
 })
 
 // 任何你期望执行的cmd命令，ls都可以
-let cmdStr = "./serv"
+let cmdStr = "./huaban-serv"
 // 执行cmd命令的目录，如果使用cd xx && 上面的命令，这种将会无法正常退出子进程
 let cmdPath = __dirname.replace("/app.asar", "")
 // 子进程变量
